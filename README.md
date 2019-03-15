@@ -1,6 +1,5 @@
 # Item Catalog
 
-The Live version of project can be found [Here](http://bit.do/book_catalog).
 ### Project Overview
 > To Develop an application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.
 
@@ -26,14 +25,7 @@ The Live version of project can be found [Here](http://bit.do/book_catalog).
   [Here](https://github.com/ashokpython/Book-Item-Catalog).
 
 #### Launch Project
-  1. Launch the Vagrant VM using command:
-  
-  ```
-    $ vagrant up
-  ```
-  2. Run your application within the VM
-  
-  ```
-    $ python /vagrant/catalog/main.py
-  ```
-  3. Access and test your application by visiting [http://localhost:8000](http://localhost:8000).
+  1. Open git bash inside vagrant and enter command vagrant up
+  2. vagrant ssh
+  3. run the database_setup.py file using python database_setup.py, by this it will create a Book.db database file
+  4. finally run the main.py file using python main.py
